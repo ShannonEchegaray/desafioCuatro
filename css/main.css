@@ -6,6 +6,7 @@
 
 body{
     color: #fff;
+    background-color: #070707;
     font-family: 'Montserrat', sans-serif;
     animation-name: color-de-fondo;
     animation-duration: 3s;
