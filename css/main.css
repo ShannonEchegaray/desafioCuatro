@@ -9,7 +9,7 @@ body{
     background-color: #070707;
     font-family: 'Montserrat', sans-serif;
     animation-name: color-de-fondo;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -297,12 +297,6 @@ body{
     width: 55%;
 }
 
-/* Animación */
-
-.expande:hover{
-    transform: scale(1.02);
-}
-
 /* Propiedades para color */
 
 .contenedor__color--transp{
@@ -312,6 +306,22 @@ body{
 
 .imagen--nivelado{
     box-shadow: 0px 0px 20px 10px #000003;
+}
+
+/* Animaciones */
+
+.expande:hover{
+    transform: scale(1.02);
+}
+
+@keyframes color-de-fondo {
+    from{
+        background-color: #020202;
+    }
+
+    to{
+        background-color: #070707;
+    }
 }
 
 /* Media Queries */
