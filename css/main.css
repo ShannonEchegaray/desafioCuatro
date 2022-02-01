@@ -8,10 +8,6 @@ body{
     color: #fff;
     background-color: #070707;
     font-family: 'Montserrat', sans-serif;
-    animation-name: color-de-fondo;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 /* Layout principal de la pagina */
@@ -312,16 +308,6 @@ body{
 
 .expande:hover{
     transform: scale(1.02);
-}
-
-@keyframes color-de-fondo {
-    from{
-        background-color: #020202;
-    }
-
-    to{
-        background-color: #070707;
-    }
 }
 
 /* Media Queries */
